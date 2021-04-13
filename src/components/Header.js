@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 
 const Header = () => {
     return (
@@ -53,8 +55,12 @@ const Header = () => {
                            <ul class="navbar-nav ml-auto">
                      
                               <li class="nav-item">
-                                 <a class="nav-link" href="index.html">Home
-                                 </a>
+                                 <Link class="nav-link" to="/">Home
+                                 </Link>
+                              </li>
+                              <li class="nav-item">
+                                 <Link class="nav-link" to="/contact">Contact
+                                 </Link>
                               </li>
                         
                            
