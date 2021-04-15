@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
@@ -13,6 +14,7 @@ const app = express();
 
 
 const PORT = process.env.PORT || 3001;
+app.use(cors());
 
 mongoose.connect('mongodb+srv://root:root@cluster0.xbeze.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true }).then(() => {
   console.log('Connected to the Database successfully')
@@ -24,7 +26,7 @@ app.use(async (req, res, next) => {
   if (req.headers["x-access-token"]) {
     try {
       const accessToken = req.headers["x-access-token"];
-      const { userId, exp } = await jwt.verify(accessToken, process.env.JWT_SECRET);
+      const { userId, exp } = await jwt.verify(accessToken,'$#GR24T4344$#$@#%WTEWTEAE%$6');
       // If token has expired
       if (exp < Date.now().valueOf() / 1000) {
         return res.status(401).json({
