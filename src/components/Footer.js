@@ -7,7 +7,7 @@ const Footer = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <a class="navbar-brand" href="index.html"><i class="flaticon-dog-20"></i><span>Woof!</span></a>
+                        <a class="navbar-brand" href="index.html"><i class="flaticon-dog-20"></i><span>PET RESCUE!</span></a>
                         <p class="mt-3">Cras enim wisi elit aenean, amet eros curabitur. Wisi ad eget ipsum metus sociis Cras enim wisi elit aenean.</p>
                     </div>
                    
@@ -35,7 +35,7 @@ const Footer = () => {
                 
                 <div class="row">
                     <div class="credits col-sm-12">
-                        <p>Copyright 2018 / Designed by <a href="http://www.ingridkuhn.com/">Ingrid Kuhn</a></p>
+                        <p>Copyright 2018 / Designed by <a href="http://www.ingridkuhn.com/">Tomlab</a></p>
                     </div>
                 </div>
                 
