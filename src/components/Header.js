@@ -42,7 +42,7 @@ const Header = () => {
                   <div class="navbar container-fluid">
                      <div class="container ">
                   
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="/">
                      <i class="flaticon-dog-20"></i><span>PET RESCUE!</span>
                   </a>
                      
